@@ -1,0 +1,29 @@
+.Inputing {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.Labeling {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.InputingElement {
+  margin-left: 25px;
+  text-align: center;
+  padding: 80px;
+  outline: none;
+  background-color: white;
+  font: inherit;
+  padding: 6px 10px;
+  display: block;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.InputingElement:focus {
+  outline: none;
+  background-color: rgb(248, 239, 226);
+}

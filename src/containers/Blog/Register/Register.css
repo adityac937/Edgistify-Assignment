@@ -1,0 +1,109 @@
+/* .ContactData {
+  margin: 20px auto;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 2px 5px #ccc;
+  border: 1px solid #eee;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+  .ContactData {
+    width: 500px;
+  }
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+c: rgb(100, 149, 237);
+
+::selection {
+  background: transparent;
+}
+
+* {
+  user-select: none;
+}
+
+.containerform {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Dancing Script", serif;
+}
+
+.form-input {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  width: 250px;
+  line-height: 50px;
+}
+
+label {
+  position: absolute;
+  top: 0;
+  left: 0.5rem;
+  width: 100%;
+  color: #d3d3d3;
+  transition: 0.2s all;
+  cursor: text;
+}
+
+input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem;
+  border: 2px solid #d3d3d3;
+  box-shadow: none;
+  color: #333;
+  border-radius: 3px;
+}
+
+input:invalid {
+  outline: 0;
+}
+
+input:focus,
+input:valid {
+  border-color: rgb(100, 149, 237);
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  padding: 0 !important;
+  font-size: 14px;
+  top: -15px;
+  color: rgb(100, 149, 237);
+}
+
+span {
+  background-color: white;
+  padding: 0 2px;
+}
+
+button {
+  position: relative;
+  padding: 0.7rem;
+  width: 200px;
+  left: 10px;
+  border: 0;
+  outline: 0;
+  color: white;
+  border-radius: 4px;
+  background-color: rgb(100, 149, 237);
+  box-shadow: 0 0 15px rgba(rgb(100, 149, 237), 0.3);
+  transition: 0.4s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(rgb(100, 149, 237), 0.9);
+}

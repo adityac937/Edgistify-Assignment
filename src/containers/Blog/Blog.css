@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,600");
+
+:root {
+  --background: rgba(0, 214, 170, 0.85);
+}
+
+.Blog ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: fit-content;
+  font-size: larger;
+  flex: auto;
+  text-align: end;
+  background-color: rgb(253, 253, 253);
+  background-position: initial;
+}
+
+.Blog li {
+  display: inline-block;
+  margin: 30px;
+  padding: 5px;
+}
+
+.Blog a {
+  text-decoration: none;
+  color: black;
+}
+
+.Blog a:hover,
+.Blog a:active,
+.Blog a.active {
+  width: 10%;
+  height: 20px;
+  color: rgb(241, 83, 55);
+}
+
+h2 {
+  text-align: center;
+  text-decoration: silver;
+  padding: 50px;
+  height: auto;
+  font-weight: 900;
+  color: rebeccapurple;
+}
+
+.Start {
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: fit-content;
+  font-size: larger;
+  flex: auto;
+  font-weight: 1100;
+  background-color: rgb(151, 250, 237);
+}
+
+.Resize {
+  margin: 5px;
+  height: 10px;
+  width: 10%;
+  border-radius: 12px;
+  align-self: auto;
+}
