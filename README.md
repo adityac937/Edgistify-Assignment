@@ -1,3 +1,11 @@
+To Run this Repository in localhost download repo 
+Run npm install to install all the dependencies
+Run npm start
+and then open localhost:3000
+Project will be running on loaclhost.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
