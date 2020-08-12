@@ -1,7 +1,8 @@
 To Run this Repository in localhost download repo 
-Run npm install to install all the dependencies
-Run npm start
-and then open localhost:3000
+
+Run "npm install" to install all the dependencies
+Run "npm start"
+and then open "localhost:3000"
 Project will be running on loaclhost.
 
 
